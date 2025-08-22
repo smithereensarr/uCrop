@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-apply from: '../mavenpush.gradle'
 
 android {
     compileSdk 36
@@ -8,7 +7,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 36
         versionCode 27
-        versionName "2.2.11-native"
+        versionName "2.2.11-custom"
 
         vectorDrawables.useSupportLibrary = true
     }
